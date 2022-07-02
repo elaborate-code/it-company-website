@@ -27,13 +27,13 @@
 
     <meta property="og:type" content="website" />
 
-    <meta property="og:image" content="{{ $page->baseUrl }}assets/images/OG-image.png" />
+    <meta property="og:image" content="{{ $page->baseUrl }}/assets/images/OG-image.png" />
 
     <meta property="og:locale" content="en_US" />
 
     {{-- scripts --}}
-    <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-    <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+    <link rel="stylesheet" href="{{ $page->baseUrl }}{{ mix('css/main.css', 'assets/build') }}">
+    <script defer src="{{ $page->baseUrl }}{{ mix('js/main.js', 'assets/build') }}"></script>
 
     {{-- fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">
