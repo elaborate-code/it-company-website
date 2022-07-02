@@ -7,7 +7,7 @@
     <div class="flex justify-between container mx-auto p-4 text-center">
 
         <a href="{{ $page->lang_route('/') }}" class="flex items-center gap-2">
-            <img alt="logo" src="assets/images/logo.png" class="h-9 w-fit mx-auto" />
+            <img alt="logo" src="{{ $page->baseUrl }}assets/images/logo.png" class="h-9 w-fit mx-auto" />
             <p class="w-maxtext-left text-sm text-left sm:text-base md:text-lg" translate="no"> {{ $page->name }} </p>
         </a>
 

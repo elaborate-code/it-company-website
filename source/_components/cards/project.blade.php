@@ -11,7 +11,7 @@
 
         <a href="{{ $projectHref }}" target="__blank"
             class="block w-full mx-auto p-2 md:mx-auto group-hover:rotate-2 transition ease-in-out delay-75 duration-150">
-            <img data-src="{{ $projectImg }}" alt="Eazy IP Web app showcase mockup" srcset=""
+            <img data-src="{{ $page->baseUrl }}{{ $projectImg }}" alt="Eazy IP Web app showcase mockup" srcset=""
                 class="lazyload object-fill">
         </a>
 
