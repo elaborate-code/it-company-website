@@ -1,0 +1,65 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+[x-cloak] {
+    display: none !important;
+}
+
+@layer components {
+    .hero-bg {
+        background: linear-gradient(to bottom, #26262688 75%, #ccc8),
+            url(/assets/images/hero-bg.jpg) no-repeat center center / cover;
+    }
+    .hero-bg-alt {
+        background: linear-gradient(to bottom, #26262688 75%, #ccc8),
+            url(/assets/images/hero-bg.jpg) no-repeat left bottom / cover;
+    }
+
+    .contact-bg {
+        background: linear-gradient(to bottom, #1d374855, #fff3),
+            url(/assets/images/business-man-working-talking-phone-concept-min.jpg)
+                no-repeat center center / cover;
+    }
+
+    .card {
+        @apply bg-frozen-blue-100 rounded-3xl shadow-xl border md:shadow-none md:hover:scale-105 md:hover:shadow-xl md:hover:border
+        transition ease-in-out delay-75 duration-150;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        @apply w-2;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        @apply bg-frozen-blue-100;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        @apply rounded-full bg-red-500;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        @apply bg-red-600;
+    }
+
+    .project-card > div {
+        @apply bg-white text-white;
+    }
+    .project-card-frozen-blue-theme h3 {
+        @apply from-frozen-blue-900 via-frozen-blue-900 to-frozen-blue-800 text-white;
+    }
+    .project-card-frozen-blue-theme p {
+        @apply border-frozen-blue-900 text-frozen-blue-900 border hover:text-black;
+    }
+    .project-card-bloodmyst-isle-theme h3 {
+        @apply from-bloodmyst-isle-900 via-bloodmyst-isle-900 to-bloodmyst-isle-800 text-white;
+    }
+    .project-card-bloodmyst-isle-theme p {
+        @apply border-bloodmyst-isle-900 text-bloodmyst-isle-900 border hover:text-black;
+    }
+}
