@@ -2,7 +2,7 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://elaboratecode.com/',
+    'baseUrl' => 'https://elaboratecode.com/it-company-website/',
     'name' => 'Elaborate Code',
     'title' => 'Elaborate Code',
     'description' => 'IT Services and IT Consulting',
