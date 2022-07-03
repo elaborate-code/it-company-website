@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d9c3bc742dc44ce0c7c03ec3535f2143",
+    "content-hash": "1c7582abdf13f110fcf760b937560ef2",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -99,16 +99,16 @@
         },
         {
             "name": "elaborate-code/jigsaw-localization",
-            "version": "0.0.3",
+            "version": "0.0.4-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elaborate-code/jigsaw-localization.git",
-                "reference": "2036412379e94268a5bb25e2d6eec62b3e632106"
+                "reference": "eb1609ebed4d7008eb4d83189e21ef1194b394df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elaborate-code/jigsaw-localization/zipball/2036412379e94268a5bb25e2d6eec62b3e632106",
-                "reference": "2036412379e94268a5bb25e2d6eec62b3e632106",
+                "url": "https://api.github.com/repos/elaborate-code/jigsaw-localization/zipball/eb1609ebed4d7008eb4d83189e21ef1194b394df",
+                "reference": "eb1609ebed4d7008eb4d83189e21ef1194b394df",
                 "shasum": ""
             },
             "type": "library",
@@ -130,9 +130,9 @@
             "description": "Brings localization feature to \"tightenco/jigsaw\" using JSON files",
             "support": {
                 "issues": "https://github.com/elaborate-code/jigsaw-localization/issues",
-                "source": "https://github.com/elaborate-code/jigsaw-localization/tree/0.0.3"
+                "source": "https://github.com/elaborate-code/jigsaw-localization/tree/0.0.4-beta"
             },
-            "time": "2022-07-02T15:40:58+00:00"
+            "time": "2022-07-03T08:03:27+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -2666,10 +2666,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "elaborate-code/jigsaw-localization": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
