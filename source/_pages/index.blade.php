@@ -62,8 +62,7 @@
 
                 @foreach ($page->services as $service)
                     <x-cards.service service-title="{{ $page->__($service->title) }}"
-                        service-desc="{{ $page->__($service->desc) }}"
-                        service-img="{{ $page->prepend_base_url($service->img) }}"
+                        service-desc="{{ $page->__($service->desc) }}" service-img="{{ $page->url($service->img) }}"
                         service-img-alt="{{ $service->imgAlt }}" />
                 @endforeach
             </div>
@@ -104,7 +103,7 @@
             </form>
 
             <a class="block mt-4 cursor-pointer text-firecracker-salmon-100 text-sm text-center underline"
-                href="{{ $page->lang_route('/contact') }}">
+                href="{{ $page->lang_url('/contact') }}">
                 {{ $page->__('Or send us a detailed message') }}
             </a>
         </section>
@@ -119,8 +118,7 @@
 
                 @foreach ($page->projects as $project)
                     <x-cards.project project-name="{{ $project->name }}"
-                        project-desc="{{ $page->__($project->desc) }}"
-                        project-img="{{ $page->prepend_base_url($project->img) }}"
+                        project-desc="{{ $page->__($project->desc) }}" project-img="{{ $page->url($project->img) }}"
                         project-href="{{ $project->href }}" class="project-card-frozen-blue-theme" />
                 @endforeach
             </div>

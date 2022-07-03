@@ -13,13 +13,13 @@
 
     <meta property="og:type" content="website" />
 
-    <meta property="og:image" content="{{ $page->prepend_base_url('/assets/images/OG-image.png') }}" />
+    <meta property="og:image" content="{{ $page->url('/assets/images/OG-image.png') }}" />
 
     <meta property="og:locale" content="en_US" />
 
     {{-- scripts --}}
-    <link rel="stylesheet" href="{{ $page->prepend_base_url(mix('css/main.css', 'assets/build')) }}">
-    <script defer src="{{ $page->prepend_base_url(mix('js/main.js', 'assets/build')) }}"></script>
+    <link rel="stylesheet" href="{{ $page->url(mix('css/main.css', 'assets/build')) }}">
+    <script defer src="{{ $page->url(mix('js/main.js', 'assets/build')) }}"></script>
 
     {{-- fonts --}}
     <link rel="preconnect" href="https://fonts.googleapis.com">

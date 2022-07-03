@@ -15,7 +15,7 @@
     <div class="flex-1 flex flex-col gap-4">
 
         @foreach ($page->routes as $route)
-            <a href="{{ $page->lang_route($route->url) }}"
+            <a href="{{ $page->lang_url($route->url) }}"
                 class="block px-4 py-2 border border-bloodmyst-isle rounded-md hover:bg-bloodmyst-isle hover:text-white">
                 {{ $route->name }}
             </a>

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb283f18e20f03dd8fb51d3d9b8331b1",
+    "content-hash": "6afac981b415adbb900aeb2e65d2e254",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -99,16 +99,16 @@
         },
         {
             "name": "elaborate-code/jigsaw-localization",
-            "version": "0.0.4",
+            "version": "0.0.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elaborate-code/jigsaw-localization.git",
-                "reference": "bd121994e0089b1f956a3c517cb0400454af86e1"
+                "reference": "42bd13597ca244a93ae2c6154ca246fce5037eeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/elaborate-code/jigsaw-localization/zipball/bd121994e0089b1f956a3c517cb0400454af86e1",
-                "reference": "bd121994e0089b1f956a3c517cb0400454af86e1",
+                "url": "https://api.github.com/repos/elaborate-code/jigsaw-localization/zipball/42bd13597ca244a93ae2c6154ca246fce5037eeb",
+                "reference": "42bd13597ca244a93ae2c6154ca246fce5037eeb",
                 "shasum": ""
             },
             "type": "library",
@@ -130,9 +130,9 @@
             "description": "Brings localization feature to \"tightenco/jigsaw\" using JSON files",
             "support": {
                 "issues": "https://github.com/elaborate-code/jigsaw-localization/issues",
-                "source": "https://github.com/elaborate-code/jigsaw-localization/tree/0.0.4"
+                "source": "https://github.com/elaborate-code/jigsaw-localization/tree/0.0.50"
             },
-            "time": "2022-07-03T09:18:29+00:00"
+            "time": "2022-07-03T18:42:30+00:00"
         },
         {
             "name": "erusev/parsedown",
@@ -2671,5 +2671,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
