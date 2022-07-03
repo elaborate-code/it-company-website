@@ -63,7 +63,7 @@
                 @foreach ($page->services as $service)
                     <x-cards.service service-title="{{ $page->__($service->title) }}"
                         service-desc="{{ $page->__($service->desc) }}"
-                        service-img="{{ $page->baseUrl }}{{ $service->img }}"
+                        service-img="{{ $page->prepend_base_url($service->img) }}"
                         service-img-alt="{{ $service->imgAlt }}" />
                 @endforeach
             </div>
@@ -120,8 +120,8 @@
                 @foreach ($page->projects as $project)
                     <x-cards.project project-name="{{ $project->name }}"
                         project-desc="{{ $page->__($project->desc) }}"
-                        project-img="{{ $page->baseUrl }}{{ $project->img }}" project-href="{{ $project->href }}"
-                        class="project-card-frozen-blue-theme" />
+                        project-img="{{ $page->prepend_base_url($project->img) }}"
+                        project-href="{{ $project->href }}" class="project-card-frozen-blue-theme" />
                 @endforeach
             </div>
 
