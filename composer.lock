@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6afac981b415adbb900aeb2e65d2e254",
+    "content-hash": "86b609d91212d1608b6ec8e5cdff3820",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -99,7 +99,7 @@
         },
         {
             "name": "elaborate-code/jigsaw-localization",
-            "version": "0.0.50",
+            "version": "0.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/elaborate-code/jigsaw-localization.git",
