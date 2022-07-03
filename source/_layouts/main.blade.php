@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ $page->currentPathLang() }}">
+<html lang="{{ $page->current_path_lang() }}">
 
 @include('_layouts.head')
 

@@ -1,4 +1,4 @@
-@props(['page', 'lang' => $page->currentPathLang()])
+@props(['page', 'lang' => $page->current_path_lang()])
 
 <div {{ $attributes->merge(['class' => 'flex items-center text-sm']) }}>
     @foreach (['en', 'fr'] as $lang_opt)

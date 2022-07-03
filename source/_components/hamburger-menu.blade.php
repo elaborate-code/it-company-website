@@ -1,4 +1,4 @@
-@props(['page', 'lang' => $page->currentPathLang()])
+@props(['page', 'lang' => $page->current_path_lang()])
 
 <aside x-data="{ visible: false }" x-cloak x-show="visible" x-transition x-on:open-hamburger.window="visible = true"
     x-on:close-hamburger.window="visible = false" x-on:click.outside="visible = false"
