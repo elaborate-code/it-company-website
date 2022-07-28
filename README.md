@@ -1,4 +1,6 @@
-# Elaborate-code
+# IT company website template
+
+![Website](https://img.shields.io/website?up_message=online&url=https%3A%2F%2Felaboratecode.com%2Fit-company-website%2F)
 
 This website/template is powered with **Tighten/Jigsaw**, **TailwindCss3** and **AlpineJs3**.
 
